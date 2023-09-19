@@ -1,0 +1,14 @@
+SQL> @myDBUpdate.sql
+
+1 row updated.
+
+
+5 rows updated.
+
+
+6 rows updated.
+
+
+6 rows updated.
+
+SQL> spool off

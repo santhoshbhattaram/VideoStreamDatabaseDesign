@@ -1,0 +1,270 @@
+SQL> @myDBQueries.sql
+
+GENRE                          LANGUAGE   VIEWERSHIPRATE                        
+------------------------------ ---------- --------------                        
+Crime                          English                34                        
+Sci-fi                         Korean                 18                        
+Sci-fi                         Hindi                  16                        
+Crime                          Hindi                  14                        
+Action                         Spanish                14                        
+Sci-fi                         English                12                        
+Action                         English                12                        
+Romance                        Spanish                10                        
+Thriller                       English                10                        
+
+9 rows selected.
+
+
+FOREIGNCOUNTRY                 USERREGION                                       
+------------------------------ ------------------------------                   
+FOREIGNCONTENT                 STREAMCOUNT                                      
+------------------------------ -----------                                      
+UK                             USA                                              
+Sanctuary                                8                                      
+                                                                                
+Europe                         USA                                              
+Peaky Blinders                           6                                      
+                                                                                
+Europe                         USA                                              
+Lucifer                                  6                                      
+                                                                                
+
+FOREIGNCOUNTRY                 USERREGION                                       
+------------------------------ ------------------------------                   
+FOREIGNCONTENT                 STREAMCOUNT                                      
+------------------------------ -----------                                      
+USA                            India                                            
+New Girl                                 4                                      
+                                                                                
+Europe                         USA                                              
+Invincible                               4                                      
+                                                                                
+
+
+COUNTRY                        INACTIVERENEWAL                                  
+------------------------------ ---------------                                  
+                                             7                                  
+India                                        3                                  
+China                                        2                                  
+USA                                          1                                  
+Japan                                        1                                  
+
+
+COUNTRY                        GENRE                          TOTALVIEWS        
+------------------------------ ------------------------------ ----------        
+USA                            Crime                                  21        
+USA                            Sci-fi                                 14        
+India                          Sci-fi                                 13        
+USA                            Action                                 12        
+UK                             Crime                                  11        
+China                          Sci-fi                                 10        
+USA                            Romance                                 9        
+India                          Crime                                   8        
+USA                            Comedy                                  8        
+UK                             Action                                  8        
+UK                             Sci-fi                                  7        
+
+COUNTRY                        GENRE                          TOTALVIEWS        
+------------------------------ ------------------------------ ----------        
+India                          Romance                                 7        
+USA                            Thriller                                7        
+China                          Crime                                   6        
+Japan                          Sci-fi                                  6        
+China                          Action                                  5        
+Japan                          Crime                                   5        
+India                          Action                                  5        
+China                          Thriller                                4        
+India                          Thriller                                4        
+Europe                         Sci-fi                                  4        
+UK                             Comedy                                  3        
+
+COUNTRY                        GENRE                          TOTALVIEWS        
+------------------------------ ------------------------------ ----------        
+Europe                         Romance                                 3        
+Europe                         Crime                                   3        
+UK                             Thriller                                3        
+Japan                          Action                                  3        
+UK                             Romance                                 2        
+China                          Romance                                 2        
+India                          Comedy                                  2        
+Europe                         Action                                  1        
+Japan                          Romance                                 1        
+Europe                         Thriller                                1        
+Europe                         Comedy                                  1        
+
+COUNTRY                        GENRE                          TOTALVIEWS        
+------------------------------ ------------------------------ ----------        
+Japan                          Thriller                                1        
+
+34 rows selected.
+
+
+GENRE                          TITLE                          STREAMCOUNT       
+------------------------------ ------------------------------ -----------       
+Crime                          Lucifer                                 18       
+Sci-fi                         Sanctuary                               18       
+Action                         Money Heist                             14       
+Romance                        New Girl                                10       
+Thriller                       Dexter                                   8       
+Comedy                         Friends                                  4       
+Comedy                         Big Bang Theory                          4       
+
+7 rows selected.
+
+
+      YEAR   LOGCOUNT                                                           
+---------- ----------                                                           
+      2021         60                                                           
+      2016          6                                                           
+      2018          7                                                           
+      2015          2                                                           
+
+
+DEVICETYPE AGEGROUP      DEVICECOUNT                                            
+---------- ------------- -----------                                            
+Mobile     Adults                 15                                            
+Mobile     Senior Adults           5                                            
+T.V        Adults                  5                                            
+Laptop     Adults                  4                                            
+Laptop     Senior Adults           4                                            
+Mobile     Teen Age                3                                            
+T.V        Teen Age                3                                            
+T.V        Senior Adults           2                                            
+Laptop     Teen Age                2                                            
+
+9 rows selected.
+
+
+GENRE                          AGEGROUP      VIEWERSHIPRATE                     
+------------------------------ ------------- --------------                     
+Crime                          Adults                    36                     
+Sci-fi                         Adults                    35                     
+Action                         Adults                    24                     
+Romance                        Adults                    13                     
+Thriller                       Adults                    12                     
+Crime                          Senior Adults             10                     
+Sci-fi                         Teen Age                  10                     
+Sci-fi                         Senior Adults              9                     
+Crime                          Teen Age                   8                     
+Action                         Teen Age                   8                     
+Romance                        Teen Age                   7                     
+
+GENRE                          AGEGROUP      VIEWERSHIPRATE                     
+------------------------------ ------------- --------------                     
+Comedy                         Adults                     7                     
+Comedy                         Teen Age                   4                     
+Thriller                       Senior Adults              4                     
+Thriller                       Teen Age                   4                     
+Romance                        Senior Adults              4                     
+Comedy                         Senior Adults              3                     
+Action                         Senior Adults              2                     
+
+18 rows selected.
+
+
+CUSTOMERID USERNAME                       DEVICECOUNT                           
+---------- ------------------------------ -----------                           
+CUST00018  SweitD0274@gmail.com                     3                           
+
+
+GENRE                          TITLE                          AVERAGERATING     
+------------------------------ ------------------------------ -------------     
+Crime                          Lucifer                           3.41111111     
+Crime                          White Collar                      3.23333333     
+Crime                          Jessica Jones                     3.33571429     
+Crime                          Criminal Minds                          3.25     
+Crime                          Peaky Blinders                           3.3     
+Crime                                                            3.33333333     
+Action                         Hanna                                   3.45     
+Action                         Chuck                                   3.85     
+Action                         Mirzapur                          3.11666667     
+Action                         Invincible                              3.15     
+Action                         Money Heist                       3.46428571     
+
+GENRE                          TITLE                          AVERAGERATING     
+------------------------------ ------------------------------ -------------     
+Action                                                           3.36764706     
+Comedy                         Pushpa                                  2.55     
+Comedy                         Friends                                4.375     
+Comedy                         OmShanthiOm                              3.7     
+Comedy                         Modern Family                            3.3     
+Comedy                         Big Bang Theory                          3.8     
+Comedy                                                                  3.7     
+Sci-fi                         Solos                                   3.55     
+Sci-fi                         Sanctuary                         3.51666667     
+Sci-fi                         Star Trek                         2.98333333     
+Sci-fi                         The Expanse                            3.525     
+
+GENRE                          TITLE                          AVERAGERATING     
+------------------------------ ------------------------------ -------------     
+Sci-fi                         Alice in Wonderland                     3.34     
+Sci-fi                                                           3.43333333     
+Romance                        New Girl                                3.47     
+Romance                        Love Sick                               3.65     
+Romance                        Outlander                         3.81666667     
+Romance                        Bridgerton                               3.5     
+Romance                        Greys Anatomy                           3.35     
+Romance                                                          3.57916667     
+Thriller                       House                                    3.1     
+Thriller                       Psych                                  3.225     
+Thriller                       Dexter                                3.8625     
+
+GENRE                          TITLE                          AVERAGERATING     
+------------------------------ ------------------------------ -------------     
+Thriller                       The Mentalist                            4.5     
+Thriller                       The Family Man                           3.4     
+Thriller                                                                3.6     
+                                                                      3.448     
+
+37 rows selected.
+
+
+GENRE                          LANGUAGE   VIEWERSHIPRATE                        
+------------------------------ ---------- --------------                        
+                                                     200                        
+                               Hindi                  50                        
+                               Korean                 36                        
+                               English                74                        
+                               Spanish                40                        
+Crime                                                 54                        
+Crime                          Hindi                  14                        
+Crime                          Korean                  6                        
+Crime                          English                34                        
+Action                                                34                        
+Action                         Hindi                   2                        
+
+GENRE                          LANGUAGE   VIEWERSHIPRATE                        
+------------------------------ ---------- --------------                        
+Action                         Korean                  6                        
+Action                         English                12                        
+Action                         Spanish                14                        
+Comedy                                                14                        
+Comedy                         Hindi                   6                        
+Comedy                         Korean                  2                        
+Comedy                         English                 2                        
+Comedy                         Spanish                 4                        
+Sci-fi                                                54                        
+Sci-fi                         Hindi                  16                        
+Sci-fi                         Korean                 18                        
+
+GENRE                          LANGUAGE   VIEWERSHIPRATE                        
+------------------------------ ---------- --------------                        
+Sci-fi                         English                12                        
+Sci-fi                         Spanish                 8                        
+Romance                                               24                        
+Romance                        Hindi                   8                        
+Romance                        Korean                  2                        
+Romance                        English                 4                        
+Romance                        Spanish                10                        
+Thriller                                              20                        
+Thriller                       Hindi                   4                        
+Thriller                       Korean                  2                        
+Thriller                       English                10                        
+
+GENRE                          LANGUAGE   VIEWERSHIPRATE                        
+------------------------------ ---------- --------------                        
+Thriller                       Spanish                 4                        
+
+34 rows selected.
+
+SQL> spool off
